@@ -65,7 +65,7 @@
                 <!--  = Logo =  -->
                 <!--  ==========  -->
                 <div class="span7">
-                    <a class="brand" href="indexbeforelogin.html">
+                    <a class="brand" href="index.html">
                         <img src="images/affin-logo.png" alt="Webmarket Logo"/>
                     </a>
                 </div>
@@ -86,9 +86,9 @@
                         <div class="btn-group" style="z-index:9999;">
                           <button class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" style="border:none;color:#569be2;">Yuska Yudhistira <span class="caret" style="margin-top:8px;"></span></button>
                           <ul class="dropdown-menu pull-right text-left">
-                            <li><a href="#">My Account</a></li>
-                            <li><a href="#">My Order</a></li>
-                            <li><a href="#">My Wishlist</a></li>
+                            <li><a href="myaccount_dashboard.html">My Account</a></li>
+                            <li><a href="myaccount_myorder.html">My Order</a></li>
+                            <li><a href="myaccount_mywishlist.html">My Wishlist</a></li>
                             <li><a href="#" style="color:red;">Logout</a></li>
                           </ul>
                         </div> <!-- .btn-group -->
@@ -117,20 +117,20 @@
                 <!--  ==========  -->
                 <div class="nav-collapse collapse">
                   <ul class="nav" id="mainNavigation">
-                    <li class="dropdown">
-                        <a href="indexafterlogin.html"> Home </a>
+                    <li>
+                        <a href="index.html"> Home </a>
                     </li>
-                    <li class="dropdown active">
-                        <a href="productlist.html" class="dropdown-toggle">catalogue</b> </a>
+                    <li class="active">
+                        <a href="catalogue-category-after.html" class="dropdown-toggle">catalogue</b> </a>
                    </li>
-                   <li class="dropdown">
-                        <a href="shop.html" class="dropdown-toggle">about us</b> </a>
+                   <li>
+                        <a href="about-us-after.html" class="dropdown-toggle">about us</b> </a>
                    </li>
-                    <li class="dropdown">
-                        <a href="blog.html" class="dropdown-toggle">promotion</b> </a>
+                    <li>
+                        <a href="promotion.html" class="dropdown-toggle">promotion</b> </a>
                     </li>
-                    <li><a href="about.html">news</a></li>
-                    <li><a href="contact.html">faq</a></li>
+                    <li><a href="news.html">news</a></li>
+                    <li><a href="faq.html">faq</a></li>
                     <li><a href="contact.html">contact us</a></li>
                   </ul>
 
@@ -153,7 +153,7 @@
                         <p class="dark-clr hidden-tablet">My Point:</p>
                     	<p  style="color:blue; font-size:14px"class="dark-clr hidden-tablet">1,750</p>
                         <p class="items">| Cart <span class="dark-clr">(16)</span></p>
-                        <a href="checkout-step-1.html" class="btn btn-danger">
+                        <a href="checkout-shoping-cart.html" class="btn btn-danger">
                             <!-- <span class="icon icons-cart"></span> -->
                             <i class="icon-shopping-cart"></i>
                         </a>
@@ -222,7 +222,7 @@
                             </div>
                       </div>
                         <div class="proceed">
-                            <a href="checkout-step-1.html" class="btn btn-danger pull-right bold higher">CHECKOUT <i class="icon-shopping-cart"></i></a>
+                            <a href="checkout-shoping-cart.html" class="btn btn-danger pull-right bold higher">CHECKOUT <i class="icon-shopping-cart"></i></a>
                             <small>Shipping costs are calculated based on location. <a href="#">More information</a></small>
                         </div>
                     </div>
@@ -423,154 +423,335 @@
     </div> <!-- /container -->
     <br><br><br><br><br>
 
+   
+    
     <!--  ==========  -->
-    <!--  = Related Products =  -->
+    <!--  = New Products =  -->
     <!--  ==========  -->
-    <div class="boxed-area no-bottom">
+    <div class="boxed-area">
         <div class="container">
+			
+			<div class="row featured-items" style="margin-top:40px;">
+				<div class="span12">
 
-            <!--  ==========  -->
-            <!--  = Title =  -->
-            <!--  ==========  -->
-            <div class="row">
-                <div class="span12">
-                    <div class="main-titles lined">
-                    	<h2 class="title-buncit"><span class="light">Related</span> Products</h2>
-                    </div>
-                </div>
-            </div>
+					<!--  ==========  -->
+					<!--  = Title =  -->
+					<!--  ==========  -->
+					<div class="main-titles lined">
+						<h2 class="title" style="color:#000000;"><span class="light">Recent </span> Promo</h2>
+						<div class="arrows">
+							<a href="#" class="icon-chevron-left" id="featuredPromoLeft"></a>
+							<a href="#" class="icon-chevron-right" id="featuredPromoRight"></a>
+						</div>
+					</div>
+				</div>
 
-            <!--  ==========  -->
-            <!--  = Related products =  -->
-            <!--  ==========  -->
-            <div class="row popup-products">
+				<div class="span12">
+					<!--  ==========  -->
+					<!--  = Carousel =  -->
+					<!--  ==========  -->
+					<div class="carouFredSel" data-autoplay="false" data-nav="featuredPromo">						
+						<div class="slide">
+							<div class="row popup-products">
+								<!--  ==========  -->
+								<!--  = Product =  -->
+								<!--  ==========  -->
+								<div class="span3_">
+									<div class="product">
+									   <div class="product-inner">
+											<div class="product-img">
+												<div class="picture">
+													<a href="catalogue-category-after.html"><img src="images/dummy/products/hp1.jpg" alt="" width="540" height="374" /></a>
+													<div class="img-overlay">
+														
+													</div>
+												</div>
+											</div>
+											<div class="main-titles no-margin">
+												<h4 class="title-buncit"><font size="3"><SUP>PTS</SUP></font><span> 5,000</span></h4>
+                                                <br>
+                                				<h5 class="no-margin"><a href="catalogue-product-detail-after.html">Addidas Converse 709</a></h5>
+											</div>
+											
+											<div class="row-fluid">
+												<p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
+                            					<p class="center-align stars">
+                                					<span class="icon-star stars-clr"></span>
+                                                      <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star"></span>
+                            					</p>
+												<div class="row-fluid hidden-line">
+												</div>                                
+											</div>
+										</div>
+									</div>                 	
+								</div> <!-- /product -->
+								<!--  ==========  -->
+								<!--  = Product =  -->
+								<!--  ==========  -->
+								<div class="span3_">
+									<div class="product">
+									   <div class="product-inner">
+											<div class="product-img">
+												<div class="picture">
+													<a href="catalogue-category-after.html"><img src="images/dummy/products/hp1.jpg" alt="" width="540" height="374" /></a>
+													<div class="img-overlay">
+														
+													</div>
+												</div>
+											</div>
+											<div class="main-titles no-margin">
+												<h4 class="title-buncit"><font size="3"><SUP>PTS</SUP></font><span> 5,000</span></h4>
+                                                <br>
+                                				<h5 class="no-margin"><a href="catalogue-product-detail-after.html">Addidas Converse 709</a></h5>
+											</div>
+											
+											<div class="row-fluid">
+												<p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
+                            					<p class="center-align stars">
+                                					<span class="icon-star stars-clr"></span>
+                                                      <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star"></span>
+                            					</p>
+												<div class="row-fluid hidden-line">
+												</div>                                
+											</div>
+										</div>
+									</div>                 	
+								</div> <!-- /product -->
+								<!--  ==========  -->
+								<!--  = Product =  -->
+								<!--  ==========  -->
+								<div class="span3_">
+									<div class="product">
+									   <div class="product-inner">
+											<div class="product-img">
+												<div class="picture">
+													<a href="catalogue-category-after.html"><img src="images/dummy/products/hp1.jpg" alt="" width="540" height="374" /></a>
+													<div class="img-overlay">
+														
+													</div>
+												</div>
+											</div>
+											<div class="main-titles no-margin">
+												<h4 class="title-buncit"><font size="3"><SUP>PTS</SUP></font><span> 5,000</span></h4>
+                                                <br>
+                                				<h5 class="no-margin"><a href="catalogue-product-detail-after.html">Addidas Converse 709</a></h5>
+											</div>
+											
+											<div class="row-fluid">
+												<p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
+                            					<p class="center-align stars">
+                                					<span class="icon-star stars-clr"></span>
+                                                      <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star"></span>
+                            					</p>
+												<div class="row-fluid hidden-line">
+												</div>                                
+											</div>
+										</div>
+									</div>                 	
+								</div> <!-- /product -->
+								<!--  ==========  -->
+								<!--  = Product =  -->
+								<!--  ==========  -->
+								<div class="span3_">
+									<div class="product">
+									   <div class="product-inner">
+											<div class="product-img">
+												<div class="picture">
+													<a href="catalogue-category-after.html"><img src="images/dummy/products/hp1.jpg" alt="" width="540" height="374" /></a>
+													<div class="img-overlay">
+														
+													</div>
+												</div>
+											</div>
+											<div class="main-titles no-margin">
+												<h4 class="title-buncit"><font size="3"><SUP>PTS</SUP></font><span> 5,000</span></h4>
+                                                <br>
+                                				<h5 class="no-margin"><a href="catalogue-product-detail-after.html">Addidas Converse 709</a></h5>
+											</div>
+											
+											<div class="row-fluid">
+												<p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
+                            					<p class="center-align stars">
+                                					<span class="icon-star stars-clr"></span>
+                                                      <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star"></span>
+                            					</p>
+												<div class="row-fluid hidden-line">
+												</div>                                
+											</div>
+										</div>
+									</div>                 	
+								</div> <!-- /product -->
+							</div>
+							<div class="row popup-products">
+							</div>
+						</div>
+						<div class="slide">
+							<div class="row popup-products">
+								<!--  ==========  -->
+								<!--  = Product =  -->
+								<!--  ==========  -->
+								<div class="span3_">
+									<div class="product">
+									   <div class="product-inner">
+											<div class="product-img">
+												<div class="picture">
+													<a href="catalogue-category-after.html"><img src="images/dummy/products/hp1.jpg" alt="" width="540" height="374" /></a>
+													<div class="img-overlay">
+														
+													</div>
+												</div>
+											</div>
+											<div class="main-titles no-margin">
+												<h4 class="title-buncit"><font size="3"><SUP>PTS</SUP></font><span> 5,000</span></h4>
+                                                <br>
+                                				<h5 class="no-margin"><a href="catalogue-product-detail-after.html">Addidas Converse 709</a></h5>
+											</div>
+											
+											<div class="row-fluid">
+												<p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
+                            					<p class="center-align stars">
+                                					<span class="icon-star stars-clr"></span>
+                                                      <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star"></span>
+                            					</p>
+												<div class="row-fluid hidden-line">
+												</div>                                
+											</div>
+										</div>
+									</div>                 	
+								</div> <!-- /product -->
+								<!--  ==========  -->
+								<!--  = Product =  -->
+								<!--  ==========  -->
+								<div class="span3_">
+									<div class="product">
+									   <div class="product-inner">
+											<div class="product-img">
+												<div class="picture">
+													<a href="catalogue-category-after.html"><img src="images/dummy/products/hp1.jpg" alt="" width="540" height="374" /></a>
+													<div class="img-overlay">
+														
+													</div>
+												</div>
+											</div>
+											<div class="main-titles no-margin">
+												<h4 class="title-buncit"><font size="3"><SUP>PTS</SUP></font><span> 5,000</span></h4>
+                                                <br>
+                                				<h5 class="no-margin"><a href="catalogue-product-detail-after.html">Addidas Converse 709</a></h5>
+											</div>
+											
+											<div class="row-fluid">
+												<p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
+                            					<p class="center-align stars">
+                                					<span class="icon-star stars-clr"></span>
+                                                      <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star"></span>
+                            					</p>
+												<div class="row-fluid hidden-line">
+												</div>                                
+											</div>
+										</div>
+									</div>                 	
+								</div> <!-- /product -->
+								<!--  ==========  -->
+								<!--  = Product =  -->
+								<!--  ==========  -->
+								<div class="span3_">
+									<div class="product">
+									   <div class="product-inner">
+											<div class="product-img">
+												<div class="picture">
+													<a href="catalogue-category-after.html"><img src="images/dummy/products/hp1.jpg" alt="" width="540" height="374" /></a>
+													<div class="img-overlay">
+														
+													</div>
+												</div>
+											</div>
+											<div class="main-titles no-margin">
+												<h4 class="title-buncit"><font size="3"><SUP>PTS</SUP></font><span> 5,000</span></h4>
+                                                <br>
+                                				<h5 class="no-margin"><a href="catalogue-product-detail-after.html">Addidas Converse 709</a></h5>
+											</div>
+											
+											<div class="row-fluid">
+												<p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
+                            					<p class="center-align stars">
+                                					<span class="icon-star stars-clr"></span>
+                                                      <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star"></span>
+                            					</p>
+												<div class="row-fluid hidden-line">
+												</div>                                
+											</div>
+										</div>
+									</div>                 	
+								</div> <!-- /product -->
+								<!--  ==========  -->
+								<!--  = Product =  -->
+								<!--  ==========  -->
+								<div class="span3_">
+									<div class="product">
+									   <div class="product-inner">
+											<div class="product-img">
+												<div class="picture">
+													<a href="catalogue-category-after.html"><img src="images/dummy/products/hp1.jpg" alt="" width="540" height="374" /></a>
+													<div class="img-overlay">
+														
+													</div>
+												</div>
+											</div>
+											<div class="main-titles no-margin">
+												<h4 class="title-buncit"><font size="3"><SUP>PTS</SUP></font><span> 5,000</span></h4>
+                                                <br>
+                                				<h5 class="no-margin"><a href="catalogue-product-detail-after.html">Addidas Converse 709</a></h5>
+											</div>
+											
+											<div class="row-fluid">
+												<p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
+                            					<p class="center-align stars">
+                                					<span class="icon-star stars-clr"></span>
+                                                      <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star stars-clr"></span>
+                                                    <span class="icon-star"></span>
+                            					</p>
+												<div class="row-fluid hidden-line">
+												</div>                                
+											</div>
+										</div>
+									</div>                 	
+								</div> <!-- /product -->
+								
+								
+								
+								
+							</div>
+						</div>
+					</div> <!-- /carousel -->
+				</div>
+			</div>			           
+    </div> <!-- /new products -->
 
-                <!--  ==========  -->
-                <!--  = Products =  -->
-                <!--  ==========  -->
-            	<div class="span3">
-            	    <div class="product">
-                        <div class="product-inner">
-                	        <div class="product-img">
-                                <div class="picture">
-                                    <a href="product.html"><img src="images/dummy/products/hp1.jpg" alt="" width="540" height="374" /></a>
-                                    <div class="img-overlay">
 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="meta main-titles no-margin">
-                                <h4 class="title-buncit"><font size="3"><SUP>PTS</SUP></font><span> 5,000</span></h4>
-                                <h5 class="no-margin">Adidas Converse 552</h5>
-                            </div>
-                            <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                            <p class="center-align stars">
-                                <span class="icon-star stars-clr"></span>
-                                <span class="icon-star stars-clr"></span>
-                                <span class="icon-star stars-clr"></span>
-                                <span class="icon-star stars-clr"></span>
-                                <span class="icon-star"></span>
-                            </p>
-                        </div>
-            	    </div>
-            	</div> <!-- /product -->
-
-                <!--  ==========  -->
-                <!--  = Products =  -->
-                <!--  ==========  -->
-            	<div class="span3">
-            	    <div class="product">
-                        <div class="product-inner">
-                	        <div class="product-img">
-                                <div class="picture">
-                                    <a href="product.html"><img src="images/dummy/products/hp1.jpg" alt="" width="540" height="374" /></a>
-                                    <div class="img-overlay">
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="main-titles no-margin">
-                                <h4 class="title-buncit"><font size="3"><SUP>PTS</SUP></font><span> 5,000</span></h4>
-                                <h5 class="no-margin">Adidas Converse 552</h5>
-                            </div>
-                            <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                            <p class="center-align stars">
-                                <span class="icon-star stars-clr"></span>
-                                <span class="icon-star stars-clr"></span>
-                                <span class="icon-star stars-clr"></span>
-                                <span class="icon-star stars-clr"></span>
-                                <span class="icon-star"></span>
-                            </p>
-                        </div>
-            	    </div>
-            	</div> <!-- /product -->
-
-                <!--  ==========  -->
-                <!--  = Products =  -->
-                <!--  ==========  -->
-            	<div class="span3">
-            	    <div class="product">
-                        <div class="product-inner">
-                	        <div class="product-img">
-                                <div class="picture">
-                                    <a href="product.html"><img src="images/dummy/products/hp1.jpg" alt="" width="540" height="374" /></a>
-                                    <div class="img-overlay">
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="main-titles no-margin">
-                                <h4 class="title-buncit"><font size="3"><SUP>PTS</SUP></font><span> 5,000</span></h4>
-                                <h5 class="no-margin">Adidas Converse 552</h5>
-                            </div>
-                            <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                            <p class="center-align stars">
-                                <span class="icon-star stars-clr"></span>
-                                <span class="icon-star stars-clr"></span>
-                                <span class="icon-star stars-clr"></span>
-                                <span class="icon-star stars-clr"></span>
-                                <span class="icon-star"></span>
-                            </p>
-                        </div>
-            	    </div>
-            	</div> <!-- /product -->
-
-                <!--  ==========  -->
-                <!--  = Products =  -->
-                <!--  ==========  -->
-            	<div class="span3">
-            	    <div class="product">
-                        <div class="product-inner">
-                	        <div class="product-img">
-                                <div class="picture">
-                                    <a href="product.html"><img src="images/dummy/products/hp1.jpg" alt="" width="540" height="374" /></a>
-                                    <div class="img-overlay">
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="main-titles no-margin">
-                                <h4 class="title-buncit"><font size="3"><SUP>PTS</SUP></font><span> 5,000</span></h4>
-                                <h5 class="no-margin">Adidas Converse 552</h5>
-                            </div>
-                            <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                            <p class="center-align stars">
-                                <span class="icon-star stars-clr"></span>
-                                <span class="icon-star stars-clr"></span>
-                                <span class="icon-star stars-clr"></span>
-                                <span class="icon-star stars-clr"></span>
-                                <span class="icon-star"></span>
-                            </p>
-                        </div>
-            	    </div>
-            	</div> <!-- /product -->
-
-            </div>
-        </div>
-    </div>
-
-
-
+				<br><br><br><br><br>
         <!--  ==========  -->
     <!--  = Footer =  -->
     <!--  ==========  -->
@@ -781,6 +962,8 @@
     <!--  ==========  -->
     <!--  = JavaScript =  -->
     <!--  ==========  -->
+    <script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap-hover-dropdown.js" type="text/javascript"></script>
 
     <!--  = FB =  -->
 

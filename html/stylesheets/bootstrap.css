@@ -96,8 +96,11 @@ a:hover, a:focus { color: #005580; text-decoration: underline; }
 .span4 { width: 300px; }
 
 .span3 { width: 220px; }
+.span3_ { width: 260px; }
 
 .span2 { width: 140px; }
+.span25 {width: 187px;}
+.span26 {width: 260px;}
 
 .span1 { width: 60px; }
 
@@ -141,6 +144,8 @@ a:hover, a:focus { color: #005580; text-decoration: underline; }
 .row-fluid .span5 { width: 40.42553%; *width: 40.37234%; }
 .row-fluid .span4 { width: 31.91489%; *width: 31.8617%; }
 .row-fluid .span3 { width: 23.40426%; *width: 23.35106%; }
+.row-fluid .span25 { width: 17.89362%; *width: 17.84043%; }
+.row-fluid .span26 { width: 19.89362%; *width: 19.84043%; }
 .row-fluid .span2 { width: 14.89362%; *width: 14.84043%; }
 .row-fluid .span1 { width: 6.38298%; *width: 6.32979%; }
 .row-fluid .offset12 { margin-left: 104.25532%; *margin-left: 104.14894%; }
